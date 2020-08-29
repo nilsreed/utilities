@@ -67,9 +67,6 @@ def main():
 
     else:
         print("No list found, new list created")
-    #Legg inn innlasting av lista, sjekk om den lastar liktig
-    #Viss ja: print "1 list found, loaded into the program"
-    #Viss nei: print "no list found, new list created for your convenience"
     counter = 0 # For å gjere menyen betre
     choice = -1 # For å ha meny
     print("===================================================")
@@ -178,8 +175,5 @@ def main():
             print("[##########] (100%)")
             print("")
             print("")
-
-    #Lag meny for å lagre, printe, ta ut frå og legge til element i (kanskje lage ny liste og?)
-    #test()
 
 main()
